@@ -957,6 +957,7 @@ body.offcanvas {
   width: 100%;
   display: block;
   margin-bottom: 30px; }
+
   .project .desc {
     position: absolute;
     top: 0;
@@ -964,7 +965,7 @@ body.offcanvas {
     left: 0;
     right: 0;
     background: #2c98f0;
-    opacity: 0;
+    opacity: 1;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s; }
@@ -1025,7 +1026,7 @@ body.offcanvas {
         color: #000; }
     @media screen and (max-width: 768px) {
       .project .desc {
-        opacity: 1;
+        opacity: 2;
         background: rgba(0, 0, 0, 0.4); }
         .project .desc h3 {
           font-style: 28px;
